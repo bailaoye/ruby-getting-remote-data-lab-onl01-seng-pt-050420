@@ -4,7 +4,7 @@ require 'net/http'
 
 require 'json'
 
-url = https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json
+url = 'https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json'
 
 class GetRequester
   attr_accessor :url
