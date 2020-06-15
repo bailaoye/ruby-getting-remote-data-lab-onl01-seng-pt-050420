@@ -7,5 +7,5 @@ class GetRequester
 
   def self.get_response_body
 
-  def parse_json
+  def self.parse_json
 end
