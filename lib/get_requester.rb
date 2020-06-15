@@ -16,7 +16,6 @@ class GetRequester
   def self.get_response_body(uri)
     response = Net::HTTP.get_response
     response.body
-
   end
 
   def self.parse_json
