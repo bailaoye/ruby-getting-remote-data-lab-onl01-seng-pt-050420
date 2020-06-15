@@ -7,7 +7,7 @@ url = 'https://learn-co-curriculum.github.io/json-site-example/endpoints/people.
 uri = URI.parse(url)
 
 class GetRequester
-  attr_accessor :url :uri
+  attr_accessor :url, :uri
   def initialize(url)
     @url = url
   end
