@@ -12,7 +12,7 @@ class GetRequester
     @url = url
   end
 
-  def self.get_response_body
+  def self.get_response_body(uri)
     response =
   end
 
