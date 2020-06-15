@@ -2,6 +2,9 @@
 require 'open-uri'
 require 'net/http'
 
+require 'json'
+
+url = https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json
 
 class GetRequester
   attr_accessor :url
@@ -10,7 +13,7 @@ class GetRequester
   end
 
   def self.get_response_body
-
+    response =
   end
 
   def self.parse_json
