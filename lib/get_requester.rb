@@ -5,7 +5,7 @@ class GetRequester
     @url = url
   end
 
-  def get_response_body
+  def self.get_response_body
 
   def parse_json
 end
